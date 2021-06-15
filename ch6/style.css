@@ -1,0 +1,10 @@
+.parent {
+  width: 200px;
+  border: 1px solid black;
+}
+
+.div {
+  background-color: rgb(197, 61, 61);
+  height: 20px;
+  margin: 5px 0px;
+}

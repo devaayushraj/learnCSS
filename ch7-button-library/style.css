@@ -1,0 +1,38 @@
+input {
+  margin: 0.25rem;
+}
+
+.input {
+  border: 1px solid grey;
+  outline: none;
+  font-size: inherit;
+  padding: 0.5em;
+  border-radius: 0.2em;
+}
+.input:focus {
+  border-color: rgb(64, 217, 255);
+  box-shadow: 0 0 5px 0 aqua;
+}
+
+.input.input-success:focus {
+  border-color: #0f0;
+  box-shadow: 0 0 5px 0 #0f0;
+}
+
+.input.input-error:focus {
+  border-color: #f00;
+  box-shadow: 0 0 5px 0 rgb(255, 0, 0);
+}
+
+.input.input-large {
+  font-size: 1.25rem;
+}
+
+.input.input-small {
+  font-size: 0.75rem;
+}
+
+.input:disabled {
+  background-color: rgb(187, 187, 187);
+  color: rgb(102, 102, 102);
+}

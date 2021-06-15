@@ -1,0 +1,20 @@
+.header-text {
+  text-align: center;
+  color: rgb(56, 56, 56);
+}
+
+.section-grey {
+  background-color: rgb(224, 224, 224);
+  color: rgb(56, 56, 56);
+}
+
+.section-text {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.cyan {
+  color: rgb(2, 110, 110);
+}
+.cross {
+  text-decoration: line-through;
+}

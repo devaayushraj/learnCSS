@@ -1,0 +1,21 @@
+.item {
+  bottom: 1px solid grey;
+  margin: 1em;
+  width: 100px;
+  background-color: rgb(121, 121, 121);
+}
+.container {
+  display: flex;
+  background-color: bisque;
+  border: 1px solid rgb(248, 194, 128);
+  justify-content: center;
+}
+.item1 {
+  height: 100px;
+}
+.item2 {
+  height: 200px;
+}
+.item3 {
+  height: 250px;
+}

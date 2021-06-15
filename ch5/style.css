@@ -1,0 +1,10 @@
+body,
+.email,
+.button {
+  font-size: 50px;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: hsl(60, 40%, 60%);
+}

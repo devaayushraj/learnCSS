@@ -1,0 +1,20 @@
+.header-text {
+  position: fixed;
+  top: calc(50vh - 6px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 90%;
+  z-index: 1;
+  font-size: 200px;
+}
+.main {
+  background-color: hsl(0, 29%, 80%);
+  height: 100%;
+}
+.container {
+  background-color: hsl(0, 29%, 80%);
+}
+.body-color {
+  background-color: hsl(0, 29%, 80%);
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0 100%);
+}
